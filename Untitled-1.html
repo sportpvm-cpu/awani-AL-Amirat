@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>متجر أواني الأميرات</title>
+    <style>
+        /* إعدادات الخطوط والألوان الأساسية */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f6f8;
+            margin: 0;
+            padding: 0;
+        }
+        
+        /* تصميم الهيدر الجديد مع الغلاف */
+        header {
+            background-color: #ffffff;
+            text-align: center;
+            padding: 0; /* تم إزالة الحشو للسماح للغلاف بالامتداد */
+            border-bottom: 4px solid #a5b042; /* اللون الأخضر الزيتي من شعارك */
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+            overflow: hidden; /* لضمان عدم خروج الصورة عن الإطار */
+        }
+        
+        .header-banner {
+            width: 100%; /* تمدد الغلاف لعرض الصفحة */
+            height: auto; /* الحفاظ على أبعاد الصورة */
+            max-width: 820px; /* الحفاظ على جودة الصورة الأصلية */
+            display: block;
+            margin: 0 auto; /* توسيط الصورة */
+        }
+        
+        /* تصميم شبكة المنتجات */
+        .products-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 30px 15px;
+            gap: 20px;
+        }
+        .product-card {
+            background-color: #ffffff;
+            border-radius: 10px;
+            padding: 15px;
+            width: 260px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        .product-card:hover {
+            transform: translateY(-5px);
+        }
+        .product-card img {
+            max-width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+        .product-title {
+            font-size: 1.2em;
+            color: #333;
+            margin: 10px 0;
+        }
+        .product-price {
+            font-size: 1.4em;
+            font-weight: bold;
+            color: #2c4a87;
+            margin-bottom: 15px;
+        }
+        
+        /* تصميم زر الواتساب */
+        .whatsapp-btn {
+            display: inline-block;
+            background-color: #25D366;
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-weight: bold;
+            width: 80%;
+        }
+        .whatsapp-btn:hover {
+            background-color: #128C7E;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="image_9.pnj (2).jpeg" alt="أواني الأميرات - غلاف المتجر الاحترافي" class="header-banner">
+    </header>
+
+    <div class="products-container">
+        
+        <div class="product-card">
+            <img src="kase.jpeg" alt="طقم كؤوس زجاجية">
+            <h3 class="product-title">طقم كؤوس زجاجية فاخرة</h3>
+            <div class="product-price">120 درهم</div>
+            <a href="https://wa.me/212600000000?text=مرحباً، أريد طلب 'طقم كؤوس زجاجية فاخرة' بسعر 120 درهم من موقع أواني الأميرات." class="whatsapp-btn" target="_blank">اطلب عبر واتساب 💬</a>
+        </div>
+
+        <div class="product-card">
+            <img src="blastik.jpeg" alt="طقم علب بلاستيك">
+            <h3 class="product-title">طقم علب تخزين بلاستيكية</h3>
+            <div class="product-price">30 درهم</div>
+            <a href="https://wa.me/212600000000?text=مرحباً، أريد طلب 'طقم علب تخزين بلاستيكية' بسعر 85 درهم من موقع أواني الأميرات." class="whatsapp-btn" target="_blank">اطلب عبر واتساب 💬</a>
+        </div>
+
+        <div class="product-card">
+            <img src="gtgt.jpg" alt="مقلاة جرانيت">
+            <h3 class="product-title">مقلاة جرانيت غير لاصقة</h3>
+            <div class="product-price">199 درهم</div>
+            <a href="https://wa.me/212600000000?text=مرحباً، أريد طلب 'مقلاة جرانيت غير لاصقة' بسعر 150 درهم من موقع أواني الأميرات." class="whatsapp-btn" target="_blank">اطلب عبر واتساب 💬</a>
+        </div>
+
+    </div>
+
+</body>
+</html>
